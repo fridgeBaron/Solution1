@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.757
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Immortals", "..\..\Mods\Immortals\Immortals.csproj", "{FFB0DEFA-7F99-443C-BBD9-4943E32F77B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechBlock", "..\..\Mods\TechBlock\TechBlock.csproj", "{A2B5D97B-E893-4197-8B42-4D36EA0DE62A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechSales", "..\..\Mods\TechSales\TechSales.csproj", "{A6FA1140-FFA7-47A0-BCF5-E3116B52A62B}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Util", "Utils\Util.shproj", "{CBF43892-F304-41FC-A4CD-D93528F7E558}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Utils\Utils.projitems*{a2b5d97b-e893-4197-8b42-4d36ea0de62a}*SharedItemsImports = 4
+		Utils\Utils.projitems*{a6fa1140-ffa7-47a0-bcf5-e3116b52a62b}*SharedItemsImports = 4
+		Utils\Utils.projitems*{cbf43892-f304-41fc-a4cd-d93528f7e558}*SharedItemsImports = 13
+		Utils\Utils.projitems*{ffb0defa-7f99-443c-bbd9-4943e32f77b1}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FFB0DEFA-7F99-443C-BBD9-4943E32F77B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFB0DEFA-7F99-443C-BBD9-4943E32F77B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFB0DEFA-7F99-443C-BBD9-4943E32F77B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFB0DEFA-7F99-443C-BBD9-4943E32F77B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2B5D97B-E893-4197-8B42-4D36EA0DE62A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2B5D97B-E893-4197-8B42-4D36EA0DE62A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2B5D97B-E893-4197-8B42-4D36EA0DE62A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2B5D97B-E893-4197-8B42-4D36EA0DE62A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6FA1140-FFA7-47A0-BCF5-E3116B52A62B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6FA1140-FFA7-47A0-BCF5-E3116B52A62B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6FA1140-FFA7-47A0-BCF5-E3116B52A62B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6FA1140-FFA7-47A0-BCF5-E3116B52A62B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {62EC246D-14A1-4578-AB97-64AD2C5ADA32}
+	EndGlobalSection
+EndGlobal
